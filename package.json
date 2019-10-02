@@ -1,0 +1,27 @@
+{
+  "name": "harberger-taxes-backend",
+  "version": "0.0.1",
+  "description": "backend for harberger taxes",
+  "main": "update.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carboclan/Harberger-Taxes-Backend.git"
+  },
+  "author": "Tal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carboclan/Harberger-Taxes-Backend/issues"
+  },
+  "homepage": "https://github.com/carboclan/Harberger-Taxes-Backend#readme",
+  "dependencies": {
+    "@carboclan/harberger-taxes-contract-wrapper": "0.0.1",
+    "co-lodash": "^0.2.0",
+    "config": "^3.2.2",
+    "ethjs": "^0.4.0",
+    "sequelize": "^5.19.2",
+    "sqlite3": "^4.1.0"
+  }
+}
