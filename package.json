@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/carboclan/Harberger-Taxes-Backend#readme",
   "dependencies": {
-    "@carboclan/harberger-taxes-contract-wrapper": "0.0.1",
+    "@carboclan/harberger-taxes-contract-wrapper": "0.0.2",
     "co-lodash": "^0.2.0",
     "config": "^3.2.2",
     "ethjs": "^0.4.0",

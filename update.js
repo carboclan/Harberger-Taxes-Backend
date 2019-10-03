@@ -19,8 +19,10 @@ const db = require('./src/db');
     await db.models.aaboard.upsert(board);
   }
 
-  async function eventListener(evt) {
-    const id = new BigNumber(evt.topics[1]);
+  async function eventListener(err, evt) {
+    if (err) return console.error(err);
+
+    const id = new BigNumber(evt.log.topics[1]);
     await updateBoard(id);
   }
 
